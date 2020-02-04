@@ -8,3 +8,5 @@ Custom background ingestion service built for a regional mortgage brokerage firm
 - **Runtime:** PHP 7.3 CLI via Linux crontab every 60 seconds with lockfile protection.
 - **Database:** MySQL 5.7 InnoDB with composite indices on phone, email, and timestamp.
 - **Deduplication:** Row-locking (`FOR UPDATE`) verification against trailing 90-day borrower records.
+
+<!-- Sanitized production deliverable: Handed off Feb 2020 -->
